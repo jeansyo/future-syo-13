@@ -21,7 +21,12 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@app/*": ["./src/app/*"],
+      "@components/*": ["src/app/components/*"],
+      "@views/*": ["src/views/*"],
+      "@api/*": ["src/api/*"],
+      "@context/*": ["src/context/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
