@@ -1,6 +1,7 @@
 "use client"
-import { Box, Button, Stack, Typography } from '@mui/material'
+import { Box, Button, Grid, Stack, Typography } from '@mui/material'
 import React from 'react'
+import CardStyled from '../components/ui/CardStyled'
 import VideoBannerStyled from '../components/ui/VideoBannerStyled'
 
 export default function page() {
@@ -49,6 +50,116 @@ export default function page() {
             </Button>
           </Stack>
         </Box>
+        <Grid
+          container
+          spacing={2}
+          p={2}
+        >
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            lg={4}
+            xl={3}
+          >
+            <CardStyled>
+              <Typography
+                  color="text.primary"
+                  gutterBottom
+                  fontSize={18}
+                  fontWeight={600}
+              >
+                  Docs 
+              </Typography>
+              <Typography
+                color="text.secondary"
+                fontSize={14}
+                fontWeight={400}
+              >
+                  Find in-depth information about Next.js features and API.
+              </Typography>
+            </CardStyled>
+          </Grid> 
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            lg={4}
+            xl={3}
+          >
+            <CardStyled>
+              <Typography
+                  color="text.primary"
+                  gutterBottom
+                  fontSize={18}
+                  fontWeight={600}
+              >
+                  Docs 
+              </Typography>
+              <Typography
+                color="text.secondary"
+                fontSize={14}
+                fontWeight={400}
+              >
+                  Find in-depth information about Next.js features and API.
+              </Typography>
+            </CardStyled>
+          </Grid> 
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            lg={4}
+            xl={3}
+          >
+            <CardStyled>
+              <Typography
+                  color="text.primary"
+                  gutterBottom
+                  fontSize={18}
+                  fontWeight={600}
+              >
+                  Docs 
+              </Typography>
+              <Typography
+                color="text.secondary"
+                fontSize={14}
+                fontWeight={400}
+              >
+                  Find in-depth information about Next.js features and API.
+              </Typography>
+            </CardStyled>
+          </Grid> 
+          <Grid
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            lg={4}
+            xl={3}
+          >
+            <CardStyled>
+              <Typography
+                  color="text.primary"
+                  gutterBottom
+                  fontSize={18}
+                  fontWeight={600}
+              >
+                  Docs 
+              </Typography>
+              <Typography
+                color="text.secondary"
+                fontSize={14}
+                fontWeight={400}
+              >
+                  Find in-depth information about Next.js features and API.
+              </Typography>
+            </CardStyled>
+          </Grid>  
+        </Grid>
     </div>
   )
 }

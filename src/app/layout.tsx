@@ -3,7 +3,7 @@
 import createEmotionCache from '@/utils/createEmotionCache'
 import { theme } from '@/utils/theme'
 import { CacheProvider } from '@emotion/react'
-import { ThemeProvider } from '@mui/material'
+import { Button, ThemeProvider } from '@mui/material'
 import { Inter } from '@next/font/google'
 import MarqueeStyled from './components/ui/MarqueeStyled'
 
